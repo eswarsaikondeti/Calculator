@@ -6,7 +6,7 @@ def click(button_text):
     entry.insert(0, current + button_text)
 
 def clear():
-    entry.delete(0, tk.END)
+    entry.delete(0, tk.END) 
 
 def calculate():
     try:
